@@ -1,0 +1,29 @@
+.statistics {
+    background-color:coral;
+    margin: 10%;
+    padding: 5%;
+}
+.title{
+    text-align: center;
+    background-color: lightcoral;
+    padding: 5%;
+    color: lightslategrey;
+}
+.item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+
+.statList{
+display: flex;
+    justify-content: space-around;
+}
+.label{
+    color: aliceblue;
+}
+.percentage{
+    color: aliceblue;
+}
