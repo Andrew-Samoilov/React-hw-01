@@ -8,6 +8,7 @@
     background-color: lightcoral;
     padding: 5%;
     color: lightslategrey;
+    text-transform: uppercase;
 }
 .item{
     list-style: none;
@@ -26,4 +27,6 @@ display: flex;
 }
 .percentage{
     color: aliceblue;
+    font-size: large;
+    font-weight: bold;
 }
