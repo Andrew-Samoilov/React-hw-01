@@ -4,7 +4,10 @@ import users from "../data/profile-user.json";
 
 import { Statistics } from "./Statistics/Statistics";
 import datastat from "../data/data.json";
-console.log(datastat);
+
+import { FriendsBoard } from "./FriendsBoard/FriendsBoard";
+import friendsLoad from "../data/friends.json";
+// console.log(friendsLoad);
 
 export const App = () => {
   
@@ -12,7 +15,7 @@ export const App = () => {
     <section>
         <ProfileBoard profiles={users} />   
     </section>
-      <Statistics stats={datastat} title="Upload stats" />
+    <Statistics stats={datastat} title="Upload stats" />
+    <FriendsBoard friends={friendsLoad} />
     </div>);
 };
-//
