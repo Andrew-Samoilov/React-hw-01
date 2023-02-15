@@ -1,0 +1,36 @@
+.profile{
+    background-color: lightcyan;
+    margin: 10%;
+    padding: 5%;
+}
+
+.description{
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+}
+.tag{
+    color: gray;
+}
+.location {
+    color: gray;
+}
+
+.liItem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+}
+.stats{
+    background-color:lightblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%; 
+}
+.quantity{
+    color: black;
+    font-weight: bold;
+}

@@ -1,16 +1,13 @@
+// import { Profile } from "./Profile/Profile";
+import { ProfileBoard } from "components/ProfileBoard/ProfileBoard";
+import users from "../data/profile-user.json";
+// console.log(users);
+
 export const App = () => {
+  
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <section>
+      <ProfileBoard profiles={users}/>
+    </section>
   );
 };
