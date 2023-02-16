@@ -1,4 +1,3 @@
-// import { Profile } from "./Profile/Profile";
 import { ProfileBoard } from "components/ProfileBoard/ProfileBoard";
 import users from "../data/profile-user.json";
 
@@ -7,7 +6,10 @@ import datastat from "../data/data.json";
 
 import { FriendsBoard } from "./FriendsBoard/FriendsBoard";
 import friendsLoad from "../data/friends.json";
-// console.log(friendsLoad);
+
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
+import transactionLoad from "../data/transactions.json"
+// console.log(transactionLoad);
 
 export const App = () => {
   
@@ -17,5 +19,6 @@ export const App = () => {
     </section>
     <Statistics stats={datastat} title="Upload stats" />
     <FriendsBoard friends={friendsLoad} />
+    <TransactionHistory items={transactionLoad} />
     </div>);
 };

@@ -1,0 +1,27 @@
+.transactionHistory{
+    /* background-color: aliceblue; */
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+text-transform: capitalize;
+    border: 1px solid #ddd;
+}
+.THthead{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 5px;
+text-transform: uppercase;
+}
+tr:nth-child(even) {
+    background-color:aliceblue ;
+}
+th,
+td {
+    text-align: center;
+    padding: 10px;
+}
+.THtype{
+    text-align: left;
+    padding-left: 40px;
+}
