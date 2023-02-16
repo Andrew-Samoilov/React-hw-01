@@ -34,7 +34,5 @@ export const Profile = ({ userProfile: { avatar, username, tag, location, stats:
 // console.log(avatar);
 
 Profile.propTypes = {
-  userProfile: { avatar: PropTypes.string.isRequired, username: PropTypes.string.isRequired, tag: PropTypes.string.isRequired, location: PropTypes.string.isRequired, stats: { followers: PropTypes.number.isRequired, views: PropTypes.number.isRequired, likes: PropTypes.number.isRequired } },
-  userProfile: PropTypes.object,
-
+  userProfile: { avatar: PropTypes.string.isRequired, username: PropTypes.string.isRequired, tag: PropTypes.string.isRequired, location: PropTypes.string.isRequired, stats: { followers: PropTypes.number.isRequired, views: PropTypes.number.isRequired, likes: PropTypes.number.isRequired }},
 }
