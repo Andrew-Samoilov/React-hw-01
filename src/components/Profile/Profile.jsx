@@ -31,8 +31,6 @@ export const Profile = ({ userProfile: { avatar, username, tag, location, stats:
   </div>
 }
 
-// console.log(avatar);
-
 Profile.propTypes = {
   userProfile: PropTypes.exact({
     avatar: PropTypes.string.isRequired,

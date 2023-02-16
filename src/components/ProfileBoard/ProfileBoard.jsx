@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from "./ProfileBoard.module.css";
 import { Profile } from "../Profile/Profile";
 
@@ -6,4 +7,8 @@ export const ProfileBoard = ({profiles}) => {
     return <div className={css.board}>
         <div><Profile userProfile={profiles} /></div>  
     </div>;
+}
+
+ProfileBoard.propTypes = {
+    profiles: PropTypes.object.isRequired,
 }

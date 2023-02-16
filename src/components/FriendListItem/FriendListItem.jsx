@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from "./FriendListItem.module.css"
 const getAlertColor = variant => {
     switch (variant) {
@@ -19,4 +20,8 @@ export const FriendsListItem = ({ friendsList } ) => {
             <p className={css.name}>{el.name}</p>
         </li>)
         )
+}
+
+FriendsListItem.propTypes = {
+    friendsList: PropTypes.array.isRequired,
 }
